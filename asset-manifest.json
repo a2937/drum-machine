@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/drum-machine/static/css/main.8c8b27cf.chunk.css",
+    "main.css": "/drum-machine/static/css/main.195a572b.chunk.css",
     "main.js": "/drum-machine/static/js/main.409ef34f.chunk.js",
     "main.js.map": "/drum-machine/static/js/main.409ef34f.chunk.js.map",
     "runtime-main.js": "/drum-machine/static/js/runtime-main.8e1a86be.js",
@@ -10,7 +10,7 @@
     "static/js/3.ee898e61.chunk.js": "/drum-machine/static/js/3.ee898e61.chunk.js",
     "static/js/3.ee898e61.chunk.js.map": "/drum-machine/static/js/3.ee898e61.chunk.js.map",
     "index.html": "/drum-machine/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/drum-machine/static/css/main.8c8b27cf.chunk.css.map",
+    "static/css/main.195a572b.chunk.css.map": "/drum-machine/static/css/main.195a572b.chunk.css.map",
     "static/js/2.395acde2.chunk.js.LICENSE.txt": "/drum-machine/static/js/2.395acde2.chunk.js.LICENSE.txt",
     "static/media/Cev_H2.ca244760.mp3": "/drum-machine/static/media/Cev_H2.ca244760.mp3",
     "static/media/Dsc_Oh.5f33c029.mp3": "/drum-machine/static/media/Dsc_Oh.5f33c029.mp3",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.8e1a86be.js",
     "static/js/2.395acde2.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
+    "static/css/main.195a572b.chunk.css",
     "static/js/main.409ef34f.chunk.js"
   ]
 }
