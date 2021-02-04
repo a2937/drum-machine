@@ -30,41 +30,65 @@ class App extends React.Component {
    */
   keyPress(event) {
     //Have to remove the "Key" prefix
-    const key = event.code.substring(3); // "a", "1", "Shift", etc.
+    const key = event.code.substring(3); // "a", "1", "Shift", etc. 
     if (key === "Q") {
       let audioElement = document.getElementById('Q');
+      let description = audioElement.parentElement.id;
+      document.getElementById("display").innerText = description;
       audioElement.play();
     }
     else if (key === "W") {
       let audioElement = document.getElementById('W');
+      let description = audioElement.parentElement.id;
+      document.getElementById("display").innerText = description;
       audioElement.play();
     }
     else if (key === "W") {
       let audioElement = document.getElementById('W');
+      let description = audioElement.parentElement.id;
+      document.getElementById("display").innerText = description;
       audioElement.play();
     }
     else if (key === "E") {
       let audioElement = document.getElementById('E');
+      let description = audioElement.parentElement.id;
+      document.getElementById("display").innerText = description;
       audioElement.play();
     }
     else if (key === "A") {
       let audioElement = document.getElementById('A');
+      let description = audioElement.parentElement.id;
+      document.getElementById("display").innerText = description;
       audioElement.play();
     }
     else if (key === "S") {
       let audioElement = document.getElementById('S');
+      let description = audioElement.parentElement.id;
+      document.getElementById("display").innerText = description;
       audioElement.play();
     }
     else if (key === "D") {
       let audioElement = document.getElementById('D');
+      let description = audioElement.parentElement.id;
+      document.getElementById("display").innerText = description;
       audioElement.play();
     }
     else if (key === "Z") {
       let audioElement = document.getElementById('Z');
+      let description = audioElement.parentElement.id;
+      document.getElementById("display").innerText = description;
       audioElement.play();
     }
     else if (key === "X") {
       let audioElement = document.getElementById('X');
+      let description = audioElement.parentElement.id;
+      document.getElementById("display").innerText = description;
+      audioElement.play();
+    }
+    else if (key === "C") {
+      let audioElement = document.getElementById('C');
+      let description = audioElement.parentElement.id;
+      document.getElementById("display").innerText = description;
       audioElement.play();
     }
   }
@@ -76,7 +100,8 @@ class App extends React.Component {
   hitDrumButton(event) {
     var target = event.target;
     var element = document.getElementById(target.id);
-
+    let description = element.id;
+    document.getElementById("display").innerText = description;
     var audioElement = element.firstElementChild;
     audioElement.play();
   }
@@ -88,40 +113,40 @@ class App extends React.Component {
         <p id="display"></p>
 
         <button id="Heater-1" className="drum-pad" onClick={this.hitDrumButton}>
-          <audio id="Q" src={heater1} />
+          <audio id="Q" className="clip" src={heater1} />
           Q
         </button>
 
         <button id="Heater-2" className="drum-pad" onClick={this.hitDrumButton}>
-          <audio id="W" src={heater2} />
+          <audio id="W" className="clip" src={heater2} />
           W
         </button>
         <button id="Heater-3" className="drum-pad" onClick={this.hitDrumButton}>
-          <audio id="E" src={heater3} />
+          <audio id="E" className="clip" src={heater3} />
           E
         </button>
         <button id="Heater-4_1" className="drum-pad" onClick={this.hitDrumButton}>
-          <audio id="A" src={heater4} />
+          <audio id="A" className="clip" src={heater4} />
           A
         </button>
         <button id="Kick_n_Hat" className="drum-pad" onClick={this.hitDrumButton}>
-          <audio id="S" src={kickNHat} />
+          <audio id="S" className="clip" src={kickNHat} />
           S
         </button>
         <button id="Dsc_Oh" className="drum-pad" onClick={this.hitDrumButton}>
-          <audio id="D" src={disco} />
+          <audio id="D" className="clip" src={disco} />
           D
         </button>
         <button id="Heater-6" className="drum-pad" onClick={this.hitDrumButton}>
-          <audio id="Z" src={heater6} />
+          <audio id="Z" className="clip" src={heater6} />
           Z
         </button>
         <button id="RP4_KICK_1" className="drum-pad" onClick={this.hitDrumButton}>
-          <audio id="X" src={rp4} />
+          <audio id="X" className="clip" src={rp4} />
           X
         </button>
         <button id="Cev_H2" className="drum-pad" onClick={this.hitDrumButton}>
-          <audio id="C" src={cev} />
+          <audio id="C" className="clip" src={cev} />
           C
         </button>
       </div>
